@@ -1,0 +1,57 @@
+        body{
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: rgb(165,230,90);
+            background: radial-gradient(circle, rgba(165,230,90,1) 0%, rgba(0,166,192,1) 73%, rgba(50,217,203,1) 100%);
+       }
+        header{
+            background: rgb(165,230,90);
+            background: linear-gradient(28deg, rgba(165,230,90,1) 0%, rgba(0,166,192,1) 100%);
+            color:  rgb(0, 0, 0); 
+            padding: 20px;
+            text-align: center;
+            align-items: center;
+            border-radius: 5px;
+        }
+        .logo{
+            width: 20;
+            height: 60px;
+            margin-right: 0px;
+        }
+        .container{
+            margin: 30px;
+            padding: 0px;
+            background-color: #00a6c0;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 10px; 
+        }
+        .gallery-item {
+            flex: 1 1 calc(25% - 10px); 
+            margin-bottom: 10px; 
+        }
+        .gallery-item img {
+            width: 100%; /* Imagem ocupa 100% do contêiner pai */
+            height: auto; /* Altura automática */
+            display: block; /* Remove margens extras */
+            border-radius: 8px; /* Borda arredondada opcional */
+        }
+        .contact, .location, .instagram {
+            text-align: center;
+            margin-top: 0px;
+        }
+        .btn { 
+           display: inline-block;
+           margin-top: 20px;
+           padding: 10px 20px;
+           font-size: 15px;
+           color: black;
+           background-color: rgb(145, 235, 11);
+           text-decoration: dashed;
+           border-radius: 5px;
+        }
